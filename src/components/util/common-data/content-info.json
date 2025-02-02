@@ -1,0 +1,22 @@
+{
+    "logotext": "JOHN",
+    "meta": {
+      "title": "Portfolio",
+      "description": "Hello, I'm John, currently working as a Front-End Developer in the Philippines."
+    },
+    "introdata": {
+      "title": "I’m John",
+      "animated": {
+        "first": "I love coding",
+        "second": "I code responsive cool websites"
+      },
+      "description": "I'm currently working as a Front-End Developer in the Philippines."
+    },
+    "page": {
+      "project_label": "Projects",
+      "view_project_label": "View project",
+      "experience_label": "Experience",
+      "contact_label": "Contact"
+    }
+}
+    

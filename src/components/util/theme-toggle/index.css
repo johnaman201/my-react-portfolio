@@ -1,0 +1,16 @@
+.toggle-theme {
+    background: var(--primary-color);
+    z-index: 99;
+    left: 10px;
+    background: var(--primary-color);
+    display: flex;
+    height: 50px;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.toggle-theme svg {
+    width: 2em;
+    height: 2em;
+    cursor: pointer;
+}

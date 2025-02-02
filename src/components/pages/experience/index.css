@@ -1,0 +1,44 @@
+.experience-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Default: 2 per row */
+    gap: 2rem;
+    text-align: center;
+    padding: 2rem 3rem;
+  }
+  
+  /* Medium Screens: 3 items per row */
+  @media (min-width: 640px) {
+    .experience-container {
+      grid-template-columns: repeat(3, 1fr);
+      padding: 2rem 1rem;;
+    }
+  }
+  
+  /* Large Screens: 4 items per row */
+  @media (min-width: 1024px) {
+    .experience-container {
+      grid-template-columns: repeat(5, 1fr);
+    }
+  }
+  
+  .experience-card {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+  }
+  
+  .experience-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .experience-icon {
+    width: 5rem;
+    margin: 0 auto;
+  }
+  
+  .experience-title {
+    margin-top: 0.75rem;
+  }
+  
