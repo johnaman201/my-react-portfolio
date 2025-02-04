@@ -54,6 +54,7 @@ export const ContactUs = () => {
                   placeholder="Enter your message"
                   name="message"
                   rows="10"
+                  required
                 ></textarea>
                 <Row>
                   <Col lg="12" className="form-group">
