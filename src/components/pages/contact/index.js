@@ -35,6 +35,7 @@ export const ContactUs = () => {
                       placeholder="Enter your name"
                       className="form-control"
                       autocomplete="off"
+                      required
                     />
                   </Col>
                   <Col lg="6" className="form-group rounded-0">
@@ -44,6 +45,7 @@ export const ContactUs = () => {
                       placeholder="Enter your email"
                       className="form-control"
                       autocomplete="off"
+                      required
                     />
                   </Col>
                 </Row>
